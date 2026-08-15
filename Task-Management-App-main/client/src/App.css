@@ -1,0 +1,37 @@
+.App {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #667eea;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5a67d8;
+}
+
+/* Toast customization */
+.Toastify__toast {
+    border-radius: 8px !important;
+}
+
+.Toastify__toast--success {
+    background: #48bb78 !important;
+}
+
+.Toastify__toast--error {
+    background: #fc8181 !important;
+}
